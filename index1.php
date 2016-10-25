@@ -1,10 +1,12 @@
 <?php
-class index {
+class baza {
     public $a, $b, $res;
-    function sum ($a,$b) {
-        $this -> $a;
-        $this -> $b;
-        $this -> res=$a+$b;
+    public function __construct ($a,$b){
+        $this -> a = $a;
+        $this -> b = $b;
+    }
+    function sum () {
+        $this -> res = $this -> a + $this -> b;
     }
 };
 ?>

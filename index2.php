@@ -1,9 +1,8 @@
 <?php
-
-require_once 'index.php';
-$obj= New index1 (2,6);
-echo $obj -> sum();
-echo "</br>";
-$obj= New index (2,6);
-echo $obj -> umn();
+require_once 'index1.php';
+class nov extends baza {
+    function umn () {
+        $this -> res = $this -> a * $this -> b;
+    }
+};
 ?>
